@@ -1,4 +1,4 @@
-# Spacecow - Python Rootkit
+# SpaceCow - Python Rootkit
 
 Follow me on [Twitter](https://twitter.com/__SPX__) 
 
@@ -102,3 +102,7 @@ This is a PoC it needs some work ( download, upload, broadcast, handling, ...) b
 ## Disclaimer
 
 Meant for study only purposes not for illegal.
+
+## License
+
+You can use this code even for commercial purposes but please give credit, I've spent hours on it.
