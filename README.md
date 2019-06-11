@@ -66,6 +66,20 @@ To listen on ports just enter the following syntax :
 
 Enter the ports separated just with a comma.
 
+To enable the persistence you have to run the file '_ServiceCreator.py_', you can add it as module in the client.py. Remember to change '_exepath_' in the file with the final path of the .exe malware and you can modify the 3 class init variables defining the Service Name, Description and DisplayName. In the end to create a new service you can run the following syntax:
+
+```python ServiceCreator.py --startup=auto install```
+
+To start the service :
+
+```python ServiceCreator.py start```
+
+To uninstall the service :
+
+```python ServiceCreator.py remove```
+
+Then reboot the system.
+
 ## C2 Commands
 
 I didn't set a help menu so the commands are the following :
