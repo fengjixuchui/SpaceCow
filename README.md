@@ -22,7 +22,7 @@ This software is a minimal Rootkit written in pure __Python3__ and does some lit
 
 - __Traffic Obfuscation__ : So this is fun because WireShark uses a specific Windows API to intercept the traffic so there's a Library created for C++ that allows the same kind of manipulation at the same level. Cool and someone decided to make it for python (PyDivert). So using this lib you can take each packet on a specific port, modifing it by your need and re-inject it into the network (Pit-Stop style). So thanks to this i managed to modify the source IP address of each packet incoming from the C&C with the destination one, so basically if you intercept the traffic you'll se in the incoming packets that the infected ones are coming from the loopback or from the LAN ... so less noise.
 
-- __Sandbox Aggressive Detection__ : I've taken some scripts around the network to perform an aggressive Sandbox detection to try to avoid analysis. This is not tested yet !. You can implement it if you want.
+- __Sandbox Aggressive Detection__ : I've taken some scripts around the network to perform an aggressive Sandbox detection to try to avoid analysis. This is not tested yet ! You can implement it if you want.
 
 - __Persistence via Windows Services__ : What is the best way to gain persistence without using the same REGKEYs? Windows Services... In the repo you have a file called '_ServiceCreator.py_' using that you can create a custom service that will execute the file at the startup. Be sure to install the service setting it : 
 
