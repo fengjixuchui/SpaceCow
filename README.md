@@ -98,3 +98,7 @@ I didn't set a help menu so the commands are the following :
 ## Conclusions
 
 This is a PoC it needs some work ( download, upload, broadcast, handling, ...) but it's all optional the basic functions are full working. So feel free to implement it and if you want to help me creating stuff pm me.
+
+## Disclaimer
+
+Meant for study only purposes not for illegal.
