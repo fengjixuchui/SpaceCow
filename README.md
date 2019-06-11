@@ -5,6 +5,7 @@ Follow me on [Twitter](https://twitter.com/__SPX__)
 In the past days i spent a lot of time watching some RedTeam ops and I saw all these little tools making some awsome stuff... and in the 90% of the cases RedTeams don't share their tricks and softwares with others.
 
 So i thought I could create something open source. And after some days i crawled up with something...
+![SpaceCow-c2c](http://zetabay.net/wp-content/uploads/2019/06/Cattura-1024x556.png)
 
 ## Why do you need SpaceCow?
 
