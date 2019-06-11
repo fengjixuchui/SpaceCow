@@ -85,15 +85,15 @@ Then reboot the system.
 I didn't set a help menu so the commands are the following :
 
 ### Command Line
-- list: list all the implants
-- notify connection true/false: this will inform you each time a new implant gets connected but this will break the current input and you need to press enter.
-- drop */1,2,3,...: you can broadcast a close connection to all implants using * or sending to specific indexes separating them with comma.
-- jump (index) : select the index and you can spawn a interactive shell with the selected implant.
+- ```list```: list all the implants
+- ```notify connection true/false```: this will inform you each time a new implant gets connected but this will break the current input and you need to press enter.
+- ```drop */1,2,3,...```: you can broadcast a close connection to all implants using * or sending to specific indexes separating them with comma.
+- ```jump (index)``` : select the index and you can spawn a interactive shell with the selected implant.
 
 ### Interactive shell
-- exit/background : to close the shell and drop the connection (yep need work to handle it).
-- EXEC::command : execute a cmd command.
-- PSEXEC::command : execute a powershell command.
+- ```exit/background``` : to close the shell and drop the connection (yep need work to handle it).
+- ```EXEC::command``` : execute a cmd command.
+- ```PSEXEC::command``` : execute a powershell command.
 
 ## Conclusions
 
